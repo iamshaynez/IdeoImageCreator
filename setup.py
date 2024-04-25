@@ -16,7 +16,6 @@ setup(
         "fake-useragent",
         "jwt",
         "dotenv",
-        "git+https://github.com/iamshaynez/R2ConfigCenter.git",
     ],
     packages=find_packages(),
     long_description=open("README.md", encoding="utf-8").read(),

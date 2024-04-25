@@ -271,8 +271,8 @@ if __name__ == "__main__":
     ideo = ImageGen()
     #tokens = ideo.check_and_refresh_auth_tokens()
     #print(ideo.cookie)
-    #images = ideo.get_images('No Cookie need to be refreshed')
-    #print(images)
+    images = ideo.get_images('No Cookie need to be refreshed')
+    print(images)
 
     limit = ideo.get_limit_left()
     print(f'limit: {limit}')
