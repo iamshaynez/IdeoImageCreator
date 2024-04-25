@@ -3,4 +3,4 @@ fake-useragent
 requests
 git+https://github.com/iamshaynez/R2ConfigCenter.git
 jwt
-dotenv
+python-dotenv

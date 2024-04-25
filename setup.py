@@ -15,7 +15,7 @@ setup(
         "requests",
         "fake-useragent",
         "jwt",
-        "dotenv",
+        "python-dotenv",
     ],
     packages=find_packages(),
     long_description=open("README.md", encoding="utf-8").read(),
