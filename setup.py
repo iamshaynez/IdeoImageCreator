@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="ideo_cc",
-    version="0.1.2",
+    version="0.1.3",
     author="xiaowenz",
     author_email="xiaowen.z@outlook.com",
     description="High quality image generation by ideogram.ai. Reverse engineered API. Rely on R2ConfigCenter.",

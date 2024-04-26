@@ -198,7 +198,7 @@ class ImageGen:
         else:
             return None
 
-    def get_images(self, prompt: str, is_auto_prompt: str = "AUTO") -> list:
+    def get_images(self, prompt: str, is_auto_prompt: str = "ON") -> list:
         url = f"{base_url}/api/images/sample"
         self.session.headers["user-agent"] = ua.random
         payload = {
