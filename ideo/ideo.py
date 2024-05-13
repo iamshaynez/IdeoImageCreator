@@ -204,9 +204,10 @@ class ImageGen:
         payload = {
             "aspect_ratio": "1:1",
             "model_version": "V_0_3",  # the latest version
+            "private": False,
             "prompt": prompt,
             "raw_or_fun": "raw",
-            "speed": "slow",
+            "sampling_speed": 0,
             "style": "photo",
             "user_id": self.user_id,
             "variation_strength": 50,
